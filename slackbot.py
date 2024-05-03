@@ -5,7 +5,7 @@ import json
 
 
 def fetch_high_priority_tickets():
-    jira_url = "https://sunsentinel.atlassian.net"
+    jira_url = "https://sunsentinel.atlassian.net/"
     jira_username = "ankitm8958"
     jira_password = "ATATT3xFfGF0aY-tr0A1aMlbtOy-0x6hPbW9r0PgzqykufOb6B6w2UTqHNABy4mYt55Bz8gINmFcipZ9CqDfdWn2YzjTjTGQR6yAbK-mICGX4f1qE1DLl6VIV2NK_wZsf4e7CQ89UiuG9NUiAFrsAJryW038KZMb7WwfchAbydrphWQIxXpsH9Q=C43E78F1"
     project_key = "NFR"
@@ -31,7 +31,7 @@ def fetch_high_priority_tickets():
 # Function to format the summary
 
 
-def format_summary(high_priority_tickets):
+def format_summary(high_priority_tickets, jira_url):
     summary = "List of all P1 tickets:\n"
     for ticket in high_priority_tickets:
         issue_key = ticket["key"]
