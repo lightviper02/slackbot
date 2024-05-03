@@ -1,7 +1,7 @@
 import requests
 import json
 
-# Function to fetch high priority tickets from Jira
+# Function to fetch high priority tickets from Jira - comments
 
 
 def fetch_high_priority_tickets():
