@@ -35,7 +35,7 @@ def fetch_high_priority_tickets():
 
 
 def post_tickets_to_slack(high_priority_tickets):
-    slack_token = "xoxb-7088991760032-7068891088740-mFx1gCSlUEP6L9P8ub3Iaajj"
+    slack_token = "xoxb-7088991760032-7068891088740-pOiisIVaCAgH8j1llzlS4bQY"
     slack_channel = "support-tickets"
     slack_api_url = "https://slack.com/api/chat.postMessage"
 
